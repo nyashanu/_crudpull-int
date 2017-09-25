@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!-- This file has been downloaded from Bootsnipp.com. Enjoy! -->
+    <title>Translators` Guild | Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+<!-- Butons for g sake -->
+
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/demo.css" rel="stylesheet">
+    <link href="assets/css/buttons.css" rel="stylesheet">
+
+<!-- Button for gs sake -->
+<!-- favicon -->
+
+<link rel="icon" type="image/png" href="assets/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="assets/favicon-16x16.png" sizes="16x16" />
+
+
+<!-- favicon -->
+
+
+
+
+
+
+
+    <style type="text/css">
+
+/**/
+#target{
+/*min-width:100%;*/
+width:100%;
+height:50px;
+background-color:white;
+margin: 0;
+position: fixed;
+top: 0;
+left: 0;
+}
+.container{
+  margin-left: 50px;
+}
+.signin p {
+  color: #1c9a67;
+  dispaly:inline-block;
+}
+.header {
+  font-size:50px; 
+  color:#fff; font-weight:700;
+  display: inline-block;
+  padding:0px 5px 0px 5px;
+
+}
+.header_paragraph {
+  font-size:25px; 
+  color:#fff; font-weight:300;
+  display: inline-block;
+  padding:0px 5px 0px 5px;
+
+}
+.header_small {
+  font-size:35px; 
+  color:#fff; font-weight:700;
+  display: inline-block;
+  padding:0px 5px 0px 5px;
+}
+/**/
+  
+.header_x {
+  font-size:40px; 
+  color: white; font-weight:700;
+  display: inline-block;
+  /*padding:25px;*/
+  /*background-color: #f6f6f6;*/
+  border-radius: 5px;
+
+}
+.header_paragraph_x {
+  font-size:25px; 
+  color:white; font-weight:300;
+  display: inline-block;
+  padding:0px 5px 0px 5px;
+
+}
+.header_small_x {
+  font-size:35px; 
+  color:white; font-weight:700;
+  display: inline-block;
+  padding:0px 5px 0px 5px;
+}
+/**/
+.links{
+  color: white;
+  text-decoration: none;
+
+}
+/* mouse over link */
+.links a:hover {
+    color:white;
+    text-decoration: none;
+
+}
+/**/
+        @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
+footer { background-color:white; min-height:350px; font-family: 'Open Sans', sans-serif; }
+.footerleft { margin-top:50px; padding:0 36px; }
+.logofooter { margin-bottom:10px; font-size:25px; color:#fff; font-weight:700;}
+
+.footerleft p { color:#fff; font-size:12px !important; font-family: 'Open Sans', sans-serif; margin-bottom:15px;}
+.footerleft p i { width:20px; color:#999;}
+
+
+.paddingtop-bottom {  margin-top:50px;}
+.footer-ul { list-style-type:none;  padding-left:0px; margin-left:2px;}
+.footer-ul li { line-height:29px; font-size:12px;}
+.footer-ul li a { color:#727480; transition: color 0.2s linear 0s, background 0.2s linear 0s; }
+.footer-ul i { margin-right:10px;}
+.footer-ul li a:hover {transition: color 0.2s linear 0s, background 0.2s linear 0s; color:#727480; }
+
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .icon {
+  width: 20px;
+  padding-top: 30px;
+ }
+ 
+
+ 
+ .icon-ul { list-style-type:none !important; margin:0px; padding:0px;}
+ .icon-ul li { line-height:75px; width:100%; float:left;}
+ .icon { float:left; margin-right:5px;}
+ 
+ 
+ .copyright { min-height:40px; background-color:#f5f5f5;}
+ .copyright p { text-align:left; color:#6d6f7b; padding:10px 0; margin-bottom:0px;}
+ .heading7 { font-size:15px; font-weight:600; color:#727480; margin-bottom:22px;}
+ .post p { font-size:12px; color:#727480; line-height:20px;}
+ .post p span { display:block; color:#6d6f7b;}
+ .bottom_ul { list-style-type:none; float:right; margin-bottom:0px;}
+ .bottom_ul li { float:left; line-height:80px;}
+ .bottom_ul li:after { content:" "; color:#6d6f7b; margin-right:8px; margin-left:8px;}
+ .bottom_ul li a { color:#6d6f7b;  font-size:12px;}
+
+/* left */
+ .bottom_ul_l { list-style-type:none; float:left; margin-bottom:0px;}
+ .bottom_ul_l li { float:left; line-height:80px;font-weight:900;}
+ .bottom_ul_l li:after { content:"   "; color:#6d6f7b; margin-right:12px; margin-left:8px;}
+ .bottom_ul_l li a { color:#6d6f7b;  font-size:14px;}
+/**/
+/* down arow */
+
+/**/
+    </style>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<link href="https://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+
+
+
+
+
+<!-- nav + scaholding -->
+<div  class="container-fluid" >
+    <!-- Second navbar for sign in -->
+    <nav id="target" class="navbar navbar-default" style="background-color: white;border-radius: 0px;height:60px;border-color: #f3f3f3;z-index: 2;">
+      <div class="container" style="padding-left: 16px;padding-right: 50px;">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header" >
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-2">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="assets/icon.png" height="190%"></a>
+        </div>
+    
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse-2" style="border-color: white;">
+          <ul class="nav navbar-nav navbar-right">
+            <!-- <li><a href="#">Home</a></li> -->
+            <li class="signin">
+              <a href="login"><p> <img src="assets/search.png" width="20px" >&nbsp&nbsp Sign in / Sign up </p></a>
+            </li>
+          </ul>
+          <div class="collapse nav navbar-nav nav-collapse slide-down" id="nav-collapse2">
+            <form class="navbar-form navbar-right form-inline" role="form">
+              <div class="form-group">
+                <label class="sr-only" for="Email">Email</label>
+                <input type="email" class="form-control" id="Email" placeholder="Email" autofocus required />
+              </div>
+              <div class="form-group">
+                <label class="sr-only" for="Password">Password</label>
+                <input type="password" class="form-control" id="Password" placeholder="Password" required />
+              </div>
+              <button type="submit" class="btn btn-success"><img src="assets/search.png" width="300px">Sign in / Sign up</button>
+            </form>
+          </div>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav><!-- /.navbar -->
+    </div>
+
+<!-- scaholding -->
+
+<div class="container-fluid" style="padding:0px;height: 700px;background: url(assets/home.jpg);
+    background-size: auto;
+    background-repeat: no-repeat; align-content: center;">
+
+<div class="col-sm-4" style="width:100px;height: 1px;">
+
+</div>
+<div class="col-sm-4" style="margin-top:20%;padding: 0px 0px 0px 40px;margin-left:70px;width: 70%;">
+<p class="header">Home to linguist arond the world</p><hr>
+<p class="header_paragraph">
+  join us in our jounrney to preseve & develop languages around the world
+</p>
+<a href="login">
+<button type="button" class="btn btn-primary">Get started</button>
+</a><p class="learnmore" style="color:white;display: inline-block;"><a class="links" href="#">Learn more</font></a></p>
+
+</div>
+
+
+
+
+
+<!-- <div class="col-sm-4" >
+stuff three
+</div> -->
+</div>
+<!-- scaholding -->
+
+<!-- nav + scaholding -->
+
+
+
+
+<div class="col-sm-4" style="margin-top:20%;padding: 0px 0px 0px 40px;margin-left:70px;width: 70%;background-color: gray;margin-top:-1px;">
+<p class="header_x">Dictionary Support for 90+ languages</p>
+<p class="header_paragraph_x">
+  <!-- Growing & up-to-date  --> 
+</p>
+<a href="login">
+<button type="button" class="btn btn-primary">Get started</button>
+</a><p class="learnmore" style="color:white;display: inline-block;"><a class="links" href="#">Learn more</font></a></p>
+
+</div>
+
+
+<!--footer start from here-->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-6 footerleft ">
+        <div style="margin-left: -30px;"> <img src="assets/icon_i.png" width="200px"></div>
+        
+      </div>
+      <div class="col-md-2 col-sm-6 paddingtop-bottom">
+        <h6 class="heading7">ORG</h6>
+        <ul class="footer-ul">
+          <li><a href="#"> About</a></li>
+          <li><a href="#"> Contact</a></li>
+          <li><a href="#"> Careers</a></li>
+          <li><a href="#"> Blog</a></li>
+          <li><a href="#"> Press</a></li>
+          <li><a href="#"> Faq's</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2 col-sm-6 paddingtop-bottom">
+        <h6 class="heading7">RESOURCES</h6>
+        <ul class="footer-ul">
+          <li><a href="#"> Downloads</a></li>
+          <li><a href="#"> Help Centre</a></li>
+          <li><a href="#"> Guides</a></li>
+          <li><a href="#"> Client Gateway</a></li>
+          <li><a href="#"> Events</a></li>
+          <li><a href="#"> Site Map</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2 col-sm-6 paddingtop-bottom">
+        <h6 class="heading7">EXTRA</h6>
+        <ul class="footer-ul">
+          <li><a href="#"> Podcast</a></li>
+        </ul>
+      </div>
+      
+      
+    </div>
+  </div>
+</footer>
+<!--footer start from here-->
+
+<div class="copyright">
+  <div class="container">
+    <div class="col-md-6">
+    <ul class="bottom_ul_l" style="width: 400px;" >
+      <li><a href="#">Status</a></li>
+        <li><a href="#"> Privacy & Terms</a></li>
+        <li><a href="#">Contact Us</a></li>
+        </ul>
+    </div>   
+
+
+<!--  -->
+
+<!--  -->
+
+<div class="col-md-6" style="width: 200px;float: right;">
+
+  
+<!--  -->
+     
+<div class="dropup" style="display: inline-block;padding:23px 0px 23px 0px;">
+   <a href="#"><img  src="assets/English(US).png" width="30px" style="padding:0px 10px 0px 0px;display: inline-block;"></a>
+   <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">English
+  <span class="caret"></span></button>
+  <ul class="dropdown-menu">
+    <li><a href="#">English (US)</a></li>
+    <li class="dropdown-header">Botwsana</li>
+    <li><a href="#">Tswana</a></li>
+    <li class="dropdown-header">Namibia</li>
+    <li><a href="#">Oshiwambo</a></li>
+    
+  <li class="dropdown-header">Zimbabwe</li>
+
+    <li><a href="#">Shona</a></li>
+     <li><a href="#">Tonga</a></li>
+    <li><a href="#">Ndebele</a></li>
+    <li class="dropdown-header">South Africa</li>
+     <li><a href="#">Zulu</a></li>
+     <li><a href="#">Xhosa</a></li>
+     <li class="dropdown-header">Tanzania</li>
+     <li><a href="#">Kiswahili</a></li>
+     
+  </ul>
+</div>
+
+      <!--  -->
+
+    </div>
+
+
+    <div class="col-md-6" style="width: 200px;float: right;">
+
+      <ul class="bottom_ul">
+
+
+
+ 
+ 
+ <li><a href="#"><img class="icon" src="assets/facebook.png"></a></li>
+ <li><a href="#"><img class="icon" src="assets/youtube.png"></a></li>
+ <li><a href="#"><img class="icon" src="assets/twitter.png"></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+
+</script>
+</body>
+</html>
