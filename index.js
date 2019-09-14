@@ -11,7 +11,7 @@ var LocalStrategy = require('passport-local').Strategy;
 var mongo = require('mongodb');
 var mongoose = require('mongoose');
 
-mongoose.connect('mongodb://test:test@ds015878.mlab.com:15878/heroku_q0q4cd13');
+mongoose.connect('mongodb://littlebits:littlebits@ds127928.mlab.com:27928/heroku_0v2hfpdx');
 var db = mongoose.connection;
 
 var routes = require('./routes/index');
